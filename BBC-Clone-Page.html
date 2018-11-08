@@ -235,11 +235,12 @@
 		#page-container {
 			
 			width: 690px;
-			height: 999999px;
-			margin: 0 auto;
+			height: 1100px;
+			margin-left: 410px;
 			border-right: 1px solid #CCCCCC;
 			position: relative;
-			left: -180px
+			left: -180px;
+			float:left;
 		}
 
 		#main-article
@@ -363,10 +364,20 @@
 		h4 a
 		{
 			text-decoration: none;
-			color:#5a5a5a;
+			color:black;
 			font-size: 21px;
 		}
 		h4 a:hover
+		{
+			color:#2C6EAA;
+		}
+
+		h4 a:visited
+		{
+			color:#5a5a5a;
+		}
+
+		h4 a:hover:visited
 		{
 			color:#2C6EAA;
 		}
@@ -514,6 +525,7 @@
 			height: 83px;
 			width: 325px;
 			border-bottom: 1px solid #CCCCCC;
+			
 		}
 
 		#other-2
@@ -522,12 +534,27 @@
 			height: 83px;
 			width: 325px;
 			border-bottom: 1px solid #CCCCCC;
+		
+		}
+		#other-3
+		{
+			float:left;
+			height: 83px;
+			width: 325px;
+		
+			
 		}
 
-		#other-no-border
+		#other-4
 		{
-			border-bottom: none !important;
+			float:right;
+			height: 83px;
+			width: 325px;
+			
+			
 		}
+
+		
 
 		h5 a
 		{
@@ -540,6 +567,16 @@
 			color:#2C6EAA;
 		}
 
+		h5 a:visited
+		{
+			color:#5a5a5a;
+		}
+
+		h5 a:hover:visited
+		{
+			color:#2C6EAA;
+		}
+
 		#other-release
 		{
 			position:relative;
@@ -547,7 +584,75 @@
 			left: 20px;
 		}
 
-		
+		#watch-or-listen-container
+		{
+			
+			height: 680px;
+			width:300px;
+			float:left;
+			position:relative;
+			left:-168px;
+			top:60px;
+
+		}
+		.video-div
+		{
+			width:290px;
+			height:100px;
+			position:relative;
+			left:6px;
+		}
+		.video
+		{
+			float:left;
+			width:120px;
+			position:relative;
+			top:10px;
+			left:5px;
+		}
+
+		h6 a
+		{
+			text-decoration: none;
+			color:black;
+			font-size:15px;
+			float:right;
+			width:160px;
+			position:relative;
+			top:25px;
+
+		}
+		h6 a:hover
+		{
+			color:#2C6EAA;
+		}
+
+		h6 a:visited
+		{
+			color:#5a5a5a;
+		}
+
+		h6 a:hover:visited
+		{
+			color:#2C6EAA;
+		}
+
+		#WorL
+		{
+			font-size:25px;
+			color:black;
+			margin-left:40px;
+			margin-top:0;
+		}	
+
+		.WorL-release
+		{
+			float:right;
+			position:relative;
+			top:-7px;
+			left:-30px;
+
+		}	
 
 	</style>
 
@@ -770,71 +875,141 @@
 					<div id="other-release" class="release">
 							<img  class="clock" src="images/clock.png">
 							<p class="hours-ago">3 hours ago</p>
-							<a class="Technology" href="" >Technology</a>
+							<a class="Technology" href="https://www.bbc.com/news/technology-35344843" >Technology</a>
  					</div>
 
 				</div>
 
 
 				<div id="other-2">
-						<h5><a href="">Government urged to use blockchain tech</a></h5>
+						<h5><a href="">Device makers face child labour claims</a></h5>
 
 						<div id="other-release" class="release">
 								<img  class="clock" src="images/clock.png">
-								<p class="hours-ago">3 hours ago</p>
-								<a class="Technology" href="" >Technology</a>
+								<p class="hours-ago">19 January 2016</p>
+								<a class="Technology" href="http://www.bbc.co.uk/news/technology-35311456" >Technology</a>
 						 </div>
 					
 				</div>
 
 
 				<div id="other-1">
-						<h5><a href="">Government urged to use blockchain tech</a></h5>
+						<h5><a href="">Friends Reunited website to close</a></h5>
 
 						<div id="other-release" class="release">
 								<img  class="clock" src="images/clock.png">
-								<p class="hours-ago">3 hours ago</p>
-								<a class="Technology" href="" >Technology</a>
+								<p class="hours-ago">18 January 2016</p>
+								<a class="Technology" href="https://www.bbc.co.uk/news/technology-35343091" >Technology</a>
 						 </div>
 					
 				</div>
 
 
 				<div id="other-2">
-						<h5><a href="">Government urged to use blockchain tech</a></h5>
+						<h5><a href="">Is the Bitcoin experiment doomed?</a></h5>
 
 						<div id="other-release" class="release">
 								<img  class="clock" src="images/clock.png">
-								<p class="hours-ago">3 hours ago</p>
-								<a class="Technology" href="" >Technology</a>
+								<p class="hours-ago">7 hours ago</p>
+								<a class="Technology" href="http://www.bbc.co.uk/news/technology-35343561" >Technology</a>
 						 </div>
 					
 				</div>
 
-				<div id="other-no-border" id="other-1">
-						<h5><a href="">Government urged to use blockchain tech</a></h5>
+				<div  id="other-3">
+						<h5><a href="">Peshawar massacre video game pulled</a></h5>
 
 						<div id="other-release" class="release">
 								<img  class="clock" src="images/clock.png">
-								<p class="hours-ago">3 hours ago</p>
-								<a class="Technology" href="" >Technology</a>
+								<p class="hours-ago">18 January 2016</p>
+								<a class="Technology" href="https://www.bbc.co.uk/news/world-asia-35346822" >Asia</a>
 						 </div>
 					
 				</div>
 	
 	
-				<div id="other-no-border" id="other-2">
-						<h5><a href="">Government urged to use blockchain tech</a></h5>
+				<div  id="other-4">
+						<h5><a href="">Pakistan unblock access to Youtube</a></h5>
 
 						<div id="other-release" class="release">
 								<img  class="clock" src="images/clock.png">
-								<p class="hours-ago">3 hours ago</p>
-								<a class="Technology" href="" >Technology</a>
+								<p class="hours-ago">18 January 2016</p>
+								<a class="Technology" href="http://www.bbc.co.uk/news/world-asia-35345872" >Asia</a>
 						 </div>
 						
 				</div>
 
 			</div>
+	</div>
+
+	<div id="watch-or-listen-container">
+		<p id="WorL">Watch/Listen</p>
+
+		<div class="video-div">
+			
+			<img class="video" src="images/1.png">
+			<h6><a href="">UK science chief back blockchain</a></h6>
+			
+			<div class="WorL-release" class="release">
+					<img  class="clock" src="images/clock.png">
+					<p class="hours-ago">1 hour ago</p>
+					<a class="Technology" href="" >Technology</a>
+			 </div>
+
+		</div>
+
+		<div class="video-div">
+				<img class="video" src="images/2.png">
+				<h6><a href="">Drone register gives 'accountability'</a></h6>
+				
+				<div class="WorL-release" class="release">
+						<img  class="clock" src="images/clock.png">
+						<p class="hours-ago">18 January 2016</p>
+						<a class="Technology" href="" >Technology</a>
+			 	</div>
+
+		</div>
+
+		<div class="video-div">
+				<img class="video" src="images/3.png">
+				<h6><a href="">SpaceX rocket explodes during landing</a></h6>
+				
+				<div class="WorL-release" class="release">
+						<img  class="clock" src="images/clock.png">
+						<p class="hours-ago">18 January 2016</p>
+						<a class="Technology" href="" >Technology</a>
+			 	</div>
+			
+		</div>
+
+		<div class="video-div">
+
+				<img class="video" src="images/4.png">
+				<h6><a href="">What is a VPN service?</a></h6>
+				
+				<div class="WorL-release" class="release">
+						<img  class="clock" src="images/clock.png">
+						<p class="hours-ago">18 January 2016</p>
+						<a class="Technology" href="" >Technology</a>
+			 	</div>
+			
+		</div>
+
+		<div class="video-div">
+
+				<img class="video" src="images/5.png">
+				<h6><a href="">Charge your phone with a hand crank</a></h6>
+				
+				<div class="WorL-release" class="release">
+						<img  class="clock" src="images/clock.png">
+						<p class="hours-ago">15 January 2016</p>
+						<a class="Technology" href="" >Technology</a>
+			 	</div>
+			
+		</div>
+
+		
+
 	</div>
 	
 </body>
