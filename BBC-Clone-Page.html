@@ -1,446 +1,510 @@
- <!doctype html>
+<!doctype html>
 <html>
-	<head>
-    	
-		<title> CLONE | Technology - BBC News </title>
-		
-		<style type="text/css">
-		
-		#topbar
-		{
-			width:100%;
-			height:40px;
-			margin:0 auto;
-			background-color:white;
-			padding-left:150px;
-			padding-right:100px;	
+
+<head>
+
+	<title> CLONE | Technology - BBC News </title>
+
+	<style type="text/css">
+		#topbar {
+			width: 100%;
+			height: 40px;
+			margin: 0 auto;
+			background-color: white;
+			padding-left: 150px;
+			padding-right: 100px;
 		}
-		
-		body
-		{
+
+		body {
 			margin: 0;
 			padding: 0;
-			font-family:Arial,Helvetica,freesans,sans-serif;
+			font-family: Arial, Helvetica, freesans, sans-serif;
 		}
-		
-		#logo
-		{
-			margin:8px 8px 8px 14px;
-			width:90px;
-			float:left;
-		}
-		
-		.topbar-section
-		{
-		
-			float:left;
-			border-left:1px #CCCCCC solid;
-			height:100%;
-		
-		
-		}
-		
-		#topbar-section-search
-		{
-		
-			float:left;
-			border-left:1px #CCCCCC solid;
-			height:100%;
-			width:200px;
-		
-		}
-		
-		#topbar-section-sign-in
-		{
-		
-			float:left;
-			border-left:1px #CCCCCC solid;
-			height:100%;
-			width:189px;
-		
-		}
-		
-		#SignIn
-		{
-		
-			margin:10px 8px 8px 8px;
-			width:20px;
+
+		#logo {
+			margin: 8px 8px 8px 14px;
+			width: 90px;
 			float: left;
 		}
-		
-		#sign-in-text
-		{
-			font-weight:bold;
-			align:left;
-			position:relative;
-			font-size:90%;
-			top:10px;
-				
+
+		.topbar-section {
+
+			float: left;
+			border-left: 1px #CCCCCC solid;
+			height: 100%;
+
+
 		}
-		
-		#StrangeLine
-		{
-			height:40px;
-			float:left;
-		
+
+		#topbar-section-search {
+
+			float: left;
+			border-left: 1px #CCCCCC solid;
+			height: 100%;
+			width: 200px;
+
 		}
-		
-		#bell
-		{
-			height:25px;
+
+		#topbar-section-sign-in {
+
+			float: left;
+			border-left: 1px #CCCCCC solid;
+			height: 100%;
+			width: 189px;
+
+		}
+
+		#SignIn {
+
+			margin: 10px 8px 8px 8px;
+			width: 20px;
+			float: left;
+		}
+
+		#sign-in-text {
+			font-weight: bold;
+			align: left;
+			position: relative;
+			font-size: 90%;
+			top: 10px;
+
+		}
+
+		#StrangeLine {
+			height: 40px;
+			float: left;
+
+		}
+
+		#bell {
+			height: 25px;
 			margin: 9px 8px;
 		}
-		
-		#bell-div{float:left;}
-		
-		.topbar-menu
-		{
-			font-weight:bold;
-			font-size:90%;
-			padding:13px 15px 0px 15px;
-			height:27px;
-		
-		}
-		
-		#ArrowDown
-		{	
-			width:15px;
-			margin-left:16px;
-		}
-		
-		#searchBar
-		{
-			background-color:#E4E4E4;
-			font-weight:bold;
-			border:none;
-			margin:10px 0px 15px 5px;
-			width:170px;
-			height:18px;			
-			float:left;
-		}
-		
-		#SearchButton
-		{
-			overflow:auto;
-			width:20px;
-			height:20px;
-			position:relative;
-			top:10px;		
-		}
-		#redbar1
-		{
-			 border-top: 1px solid #CCCCCC;
-			 width:100%;
-			 height:80px;
-			 margin:0 auto;
-			 background-color:#BB1919;
-		}
-		 
-		
-		 
-		 h1
-		 {
-		 
-			 margin:0;
-			 font-weight:normal;
-			 target:_blank;
-			 text-decoration:none;
-			 color:white;
-			 font-size:250%; 
-			 position:relative;
-			 left:-340px;
-			 top:17px;
-			 
-		 }
-		 
-		 .clear{clear:both;}
-		 
-		 #find-local-news
-		 {
-		 
-			 background-color:#BB1919;
-			 border:1px solid #BB4545;
-			 width:180px;
-			 height:32px;
-			 float:right;
-			 position:relative;
-			 top:-20px;
-			 left:-210px;
-			 
-		 }
-		 
-		 #find-local-news-text
-		 {
-			  font-weight:strong;
-			  color:white;
-			  font-size:20px;
-			  position:relative;
-			  top:5px;
-			  left:8px;
-		  	  text-decoration:none;
-		 }
-		 
-		  #find-local-news-text:hover
-		 {
-			text-decoration:underline;
-		 
-		 }
-		 
-		 #find-local-news-img
-		 {
-		 
-			 height:28px;
-			 float:right;
-		
-		 
-		 }
-		 
-		  #redbar2
-		  {
-			 width:100%;
-			 height:40px;
-			 margin:0 auto;
-			 background-color:#A91717;
-		 
-		  }
-		 
-		 #Menu-bar2
-		 {
-			width:1000px;
-			margin: 0 auto;
-			}		
-		
-		
-		#Menu-bar2 a
-		{
-			
-			margin: 0 auto;
-			color:white;
-			text-decoration:none;
-			padding:5px;
-			border-right: 1px solid #BB4545;
-			position:relative;
-			top:10px;
-			left:-20px;	
-			padding-right:10px;
-			padding-left:10px;
-			font-size:14px;
-		}
-		
-		#Menu-bar2 a:hover
-		{
-			border-bottom:4px solid white;
-			
-		}
-			
-		.no-border			
-			{
-				border:none !important;
-			
-			}
-			
-		.no-border:hover
-			{
-				padding:30px;
-				background-color:black;
-			
-			}
-			
-		#red-down
-			{
-				position:relative;
-				left:-30px;
-				top:11px;
-			}
-			
-			
-		#page-container
-		{
-			width:800px;
-			margin: 0 auto;
-			border-right:1px solid #808080;
-			position:relative;
-			left:-115px
-			
-		
-		
-		}
-		
-		h2
-		{
-			font-weight:normal;
-			font-size:20px;
-			border-bottom: 3px solid #BB1919;
-			width:105px;
-		
-		}
-		
-		h3 a
-		{
-			color:#808080;
-			font-size:25px;	
-			text-decoration:none;
-		}
-		
-		h3 a:hover
-		{
-			color:#2C6EAA;		
-		}
-		 
-		.summary
-		{
-			color:#808080;		
-		}
-		
-		#asda
-		{
-			float:right;
-			align:right;
-			
-		}
-		 
-		 
-		
-		
-		</style>
-		
-		
-		
-	
-	</head>
-	
-    <body>
-	
-		<div id="topbar">
-			<img id="logo" src="images/bbc_logo.png" >
-			
-			<div id="topbar-section-sign-in">
-				
-				<img id="SignIn" src="images/SignIn.jpg">
-				<span id="sign-in-text">Sign in</span>
-			</div>
-			
-			<div id="bell-div">
-			
-				<img id="StrangeLine" src="images/Strange_line.png">
-				<img id="bell" src="images/bell.png">
-			
-			</div>
-			
-			<div class="topbar-section topbar-menu">
-				News		
-			
-			</div>
-			
-			
-			<div class="topbar-section topbar-menu">
-				Sport		
-			</div>
-			
-			
-			<div class="topbar-section topbar-menu">
-				Weather	
-			</div>
-			
-			
-			<div class="topbar-section topbar-menu">
-				iPlayer
-			</div>
-			
-			
-			<div class="topbar-section topbar-menu">
-				TV	
-			</div>
-			
-			
-			<div class="topbar-section topbar-menu">
-				More
-				
-				<img id="ArrowDown" src="images/ArrowDown.jpg" >
-			</div>
-			
-			<div id="topbar-section-search" >
-				
-				<input  id="searchBar" type="text" placeholder="Search" >
-				
-				<input id="SearchButton" type="image" src="images/search.png">
-			</div>		
-		</div>
-		
-		
-		<div id="redbar1">
-		
-			<h1>NEWS</h1>
-			<div id="find-local-news">
-				
-				<a href="" id="find-local-news-text"> Find local news </a>
-				<img id="find-local-news-img" src="images/pin.jpg">
-				
-				
-			</div>
-		
-		</div>
-		
-		<div class="clear"></div>
-		
-		<div id="redbar2">	
-		
-			<div id="Menu-bar2">
-			
-				<a href="">Home</a>
-				
-				<a href="">UK</a>
-				
-				<a href="">World</a>
-				
-				<a href="">Business</a>
-				
-				<a href="">Politics</a>
-				
-				<a href="">Tech</a>
-				
-				<a href="">Science</a>		
-				
-				<a href="">Health</a>
-				
-				<a href="">Education</a>
-				
-				<a href="">Entertainment & Arts</a>
-				
-				<a href="">Video & Audio </a>
-				
-				<a class="no-border" href="">More</a>
-				
-				<img id="red-down" src="images/red-down.jpg">	
-				
-				
-			</div>
-		
-		</div>
-		
-		<div class="clear"></div>
-		
-		<div id="page-container">
-		
-			<div id="main-article">
-			
-				<h2>Technology</h2>
-				
-				<h3><a href="">Asda bug exposed online shopping payment details</a></h3>
-				
-				<p class="summary">Security vulnerabilities that put customers at risk have affected Asda's website for a couple of
-				years, a security expert has revealed.</p>
-				
-				<img id="asda" src="images/ASDA.jpg">
 
+		#bell-div {
+			float: left;
+		}
+
+		.topbar-menu {
+			font-weight: bold;
+			font-size: 90%;
+			padding: 13px 15px 0px 15px;
+			height: 27px;
+
+		}
+
+		#ArrowDown {
+			width: 15px;
+			margin-left: 16px;
+		}
+
+		#searchBar {
+			background-color: #E4E4E4;
+			font-weight: bold;
+			border: none;
+			margin: 10px 0px 15px 5px;
+			width: 170px;
+			height: 18px;
+			float: left;
+		}
+
+		#SearchButton {
+			overflow: auto;
+			width: 20px;
+			height: 20px;
+			position: relative;
+			top: 10px;
+		}
+
+		#redbar1 {
+			border-top: 1px solid #CCCCCC;
+			width: 100%;
+			height: 80px;
+			margin: 0 auto;
+			background-color: #BB1919;
+		}
+
+
+
+		h1 {
+
+			margin: 0;
+			font-weight: normal;
+			target: _blank;
+			text-decoration: none;
+			color: white;
+			font-size: 250%;
+			position: relative;
+			left: -340px;
+			top: 17px;
+
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		#find-local-news {
+
+			background-color: #BB1919;
+			border: 1px solid #BB4545;
+			width: 180px;
+			height: 32px;
+			float: right;
+			position: relative;
+			top: -20px;
+			left: -210px;
+
+		}
+
+		#find-local-news-text {
+			font-weight: strong;
+			color: white;
+			font-size: 20px;
+			position: relative;
+			top: 5px;
+			left: 8px;
+			text-decoration: none;
+		}
+
+		#find-local-news-text:hover {
+			text-decoration: underline;
+
+		}
+
+		#find-local-news-img {
+
+			height: 28px;
+			float: right;
+
+
+		}
+
+		#redbar2 {
+			width: 100%;
+			height: 40px;
+			margin: 0 auto;
+			background-color: #A91717;
+
+		}
+
+		#Menu-bar2 {
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+
+		#Menu-bar2 a {
+
+			margin: 0 auto;
+			color: white;
+			text-decoration: none;
+			padding: 5px;
+			border-right: 1px solid #BB4545;
+			position: relative;
+			top: 10px;
+			left: -20px;
+			padding-right: 10px;
+			padding-left: 10px;
+			font-size: 14px;
+		}
+
+		#Menu-bar2 a:hover {
+			border-bottom: 4px solid white;
+
+		}
+
+		.no-border {
+			border: none !important;
+
+		}
+
+		.no-border:hover {
+			padding: 30px;
+			background-color: black;
+
+		}
+
+		#red-down {
+			position: relative;
+			left: -30px;
+			top: 11px;
+		}
+
+
+		#page-container {
+			width: 670px;
+			height: 100%;
+			margin: 0 auto;
+			border-right: 1px solid #CCCCCC;
+			position: relative;
+			left: -180px
+		}
+
+		#main-article
+		{
+			height: 330px;
+			border-bottom:1px solid  #CCCCCC;
+			margin-right:17px;
+		}
+
+		h2 {
+			font-weight: normal;
+			font-size: 20px;
+			border-bottom: 3px solid #BB1919;
+			width: 105px;
+
+		}
+
+		h3 a {
+			color: #5a5a5a;
+			font-size: 25px;
+			text-decoration: none;
+		}
+
+		h3 a:hover {
+			color: #2C6EAA;
+		}
+
+		.summary {
+			color: #5a5a5a;
+			width:230px;
+		}
+
+		#asda {
+			float: right;
+			position: relative;
+			top:-110px;
+			left:-20px;
+			
+
+		}
+
+		.clock
+		{
+			width:14px;
+			height: 14px;
+			float:left;
+			position: relative;
+			top:17px;
+
+		}
+		.release
+		{
+			font-size:80%;
+			float:left;
+			width:400px;
+			position: relative;
+			top:-250px;
+			
+
+		}
+		.hours-ago
+		{
+			float:left;
+			color: #5a5a5a;
+			padding:5px;
+
+
+		}
+		.Technology
+		{
+			float:left;
+			color:#BB1919;
+			border-left:1px solid #808080;
+			position:relative;
+			top:19px;
+			text-decoration: none;
+
+		}
+		.Technology:hover
+		{
+			color:#2C6EAA;
+		}
+
+		#bot-news
+		{
+			width:240px !important;
+			text-decoration: none;	
+			color:black;
+			float:left;
+			position: relative;
+			left:-405px;
+			top:-190px;
+			
+		}
+		#bot-news:hover
+		{
+			color:#2C6EAA;
+
+		}
+
+		#first-article-column
+		{
+			width:225px;
+			height: 400px;
+			border-right: 1px solid #CCCCCC;
+			margin-top:17px;
 			
 			
 			
-		
-		
-			</div>
-		
+			
+		}
+
+	</style>
+
+
+
+
+</head>
+
+<body>
+
+	<div id="topbar">
+		<img id="logo" src="images/bbc_logo.png">
+
+		<div id="topbar-section-sign-in">
+
+			<img id="SignIn" src="images/SignIn.jpg">
+			<span id="sign-in-text">Sign in</span>
+		</div>
+
+		<div id="bell-div">
+
+			<img id="StrangeLine" src="images/Strange_line.png">
+			<img id="bell" src="images/bell.png">
+
+		</div>
+
+		<div class="topbar-section topbar-menu">
+			News
+
+		</div>
+
+
+		<div class="topbar-section topbar-menu">
+			Sport
+		</div>
+
+
+		<div class="topbar-section topbar-menu">
+			Weather
+		</div>
+
+
+		<div class="topbar-section topbar-menu">
+			iPlayer
+		</div>
+
+
+		<div class="topbar-section topbar-menu">
+			TV
+		</div>
+
+
+		<div class="topbar-section topbar-menu">
+			More
+
+			<img id="ArrowDown" src="images/ArrowDown.jpg">
+		</div>
+
+		<div id="topbar-section-search">
+
+			<input id="searchBar" type="text" placeholder="Search">
+
+			<input id="SearchButton" type="image" src="images/search.png">
+		</div>
+	</div>
+
+
+	<div id="redbar1">
+
+		<h1>NEWS</h1>
+		<div id="find-local-news">
+
+			<a href="" id="find-local-news-text"> Find local news </a>
+			<img id="find-local-news-img" src="images/pin.jpg">
+
+
+		</div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="redbar2">
+
+		<div id="Menu-bar2">
+
+			<a href="">Home</a>
+
+			<a href="">UK</a>
+
+			<a href="">World</a>
+
+			<a href="">Business</a>
+
+			<a href="">Politics</a>
+
+			<a href="">Tech</a>
+
+			<a href="">Science</a>
+
+			<a href="">Health</a>
+
+			<a href="">Education</a>
+
+			<a href="">Entertainment & Arts</a>
+
+			<a href="">Video & Audio </a>
+
+			<a class="no-border" href="">More</a>
+
+			<img id="red-down" src="images/red-down.jpg">
+
+
+		</div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="page-container">
+
+		<div id="main-article">
+
+			<h2>Technology</h2>
+
+			<h3><a href="">Asda bug exposed online shopping payment details</a></h3>
+
+			<p class="summary">Security vulnerabilities that put customers at risk have affected Asda's website for a couple of
+				years, a security expert has revealed.</p>
+
+			<img id="asda" src="images/ASDA.jpg">
+			
+			<div class="release">
+				<img  class="clock" src="images/clock.png">
+				<p class="hours-ago">2 hours ago</p>
+				<a class="Technology" href="" >Technology</a>
+			</div>	
+
+			<a id="bot-news" href="">Surveillance firm hit hack attack eBay flaw has existed for months</a>
+
+		</div>
+
+		<div id="first-article-column">
+
+
+		</div>
+
+		<div id="first-article-column">
+
+
 		</div>
 	
-    </body>
+
+	</div>
+	
+</body>
+
 </html>
